@@ -50,7 +50,7 @@ getMostPopularMovies = () => {
     const path = '/movie/popular';
     const url = generateUrl(path);
 
-    const render = renderMovies.bind({ title: 'Upcoming Movies' })
+    const render = renderMovies.bind({ title: 'Popular Movies' })
     requestMovies(url, render, handleError);
 }
 
