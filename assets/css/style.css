@@ -98,6 +98,7 @@ body {
 
 .section img{
     width: 250px;
+    height: auto;
     transition: 250ms all;
 }
 
