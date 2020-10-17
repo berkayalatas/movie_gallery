@@ -2,10 +2,10 @@
 
 JavaScript/jQuery app that fetches movie data from the TheMovieDb.
 
-There are 4 Category of Movie:
-Popular Movies
-Upcoming Movies
-Top Rated Movies
+There are 4 Category of Movie: <br>
+Popular Movies <br>
+Upcoming Movies <br>
+Top Rated Movies <br>
 Now Playing
 
 People can search for the any movie and watch the trailer.
