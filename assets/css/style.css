@@ -1,0 +1,144 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: sans-serif,Arial, Helvetica !important;
+    color: #f3ebeb;
+    letter-spacing: 3px;
+    background: rgb(8, 10, 67);
+    background: linear-gradient(90deg, rgba(8, 10, 67, 1) 0%, rgba(43, 67, 125, 1) 35%, rgba(55, 70, 140, 1) 70%, rgba(10, 16, 46, 1) 100%);
+}
+
+
+/*navbar */
+.navbar {
+    font-family: 'Piedra', cursive;
+    background: rgb(63, 94, 251);
+    background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(52, 31, 135, 1) 100%);
+}
+
+
+.container {
+    padding: 20px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.container h2 {
+    letter-spacing: 2px !important;
+    font-weight: bold;
+    position: relative;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.form-group{
+    margin-bottom: 1rem;
+}
+
+/* search input  */
+#inputValue {
+    color: white;
+    border: 2px solid #BEBEBE;
+    background: rgb(40, 43, 49);
+    background: linear-gradient(0deg, rgba(40, 43, 49, 1) 26%, rgba(72, 75, 84, 1) 64%, rgba(37, 33, 33, 1) 100%);
+}
+
+#inputValue:hover {
+    box-shadow: 2px 2px 2px 2px  rgb(9, 114, 233);
+}
+
+::-webkit-input-placeholder {
+    color:  rgb(245, 245, 245);
+}
+
+:-ms-input-placeholder {
+    color:  rgb(245, 245, 245);
+}
+
+::placeholder {
+    color: rgb(245, 245, 245) !important;
+}
+
+/* search button */ 
+#search {
+    position: absolute;
+    right: 50%;
+    outline: none;
+    color: white;
+    background: rgb(16, 20, 30);
+    background: linear-gradient(0deg, rgba(16, 20, 30, 1) 23%, rgba(0, 14, 51, 1) 64%, rgba(0, 0, 0, 1) 100%);
+}
+
+#search:hover{
+    opacity: 0.8;
+}
+
+
+#movies-searchable{
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+/*section */
+
+.section {
+    display: flex;
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.section img{
+    width: 250px;
+    transition: 250ms all;
+}
+
+
+.movie {
+    margin-bottom: 60px;
+}
+
+
+/*videos */
+img:hover {
+    margin-left: 0 40px;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.content {
+    padding: 10px;
+    border:2px solid rgb(11, 64, 99);
+    height: auto;
+    display: none;
+    background: rgb(13,125,252);
+    background: radial-gradient(circle, rgba(13,125,252,1) 0%, rgba(38,99,122,0.8500350823923319) 35%, rgba(49,94,112,1) 67%, rgba(18,129,255,1) 100%);
+}
+
+.content-display{
+    display: block;
+}
+
+.content div {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 10px;
+}
+
+
+#content-close {    
+    font-size: 35px;
+    color: #f3ebeb;
+    padding: 10px;
+    cursor: pointer;
+}
